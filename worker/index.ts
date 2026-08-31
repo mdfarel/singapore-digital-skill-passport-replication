@@ -34,6 +34,38 @@ api.get('/meta', async (c) => {
       { dataset: 'Course catalogue', source: 'generated for this platform', status: 'synthetic' },
       { dataset: 'Persons, employers, postings', source: 'generated for this platform', status: 'synthetic' },
     ],
+    // Sources consulted for the framework structure. No text was copied from them;
+    // the skills, roles and descriptors in this registry were written for it.
+    references: [
+      { title: 'SkillsFuture Skills Frameworks', publisher: 'SkillsFuture Singapore',
+        url: 'https://www.skillsfuture.gov.sg/initiatives/training-providers/skills-framework',
+        used: 'Sector framework structure and the six-level technical proficiency scale' },
+      { title: 'Critical Core Skills, Jobs-Skills Portal', publisher: 'SWDA',
+        url: 'https://jobsandskills.swda.gov.sg/frameworks/critical-core-skills',
+        used: 'The sixteen critical core skills, their three clusters and three bands' },
+      { title: 'Critical Core Skills overview', publisher: 'SkillsFuture Singapore',
+        url: 'https://www.skillsfuture.gov.sg/docs/default-source/initiatives/critical-core-skills/ccs_overview.pdf',
+        used: 'Cluster membership of each critical core skill' },
+      { title: 'Critical Core Skills That Employers Want', publisher: 'MySkillsFuture',
+        url: 'https://www.myskillsfuture.gov.sg/content/portal/en/career-resources/career-resources/education-career-personal-development/2022_Critical_Core_Skills.html',
+        used: 'Skill definitions used to shape the band descriptors' },
+      { title: 'SkillsFuture Level-Up Programme', publisher: 'MySkillsFuture',
+        url: 'https://www.myskillsfuture.gov.sg/content/portal/en/career-resources/career-resources/education-career-personal-development/SkillsFuture_Level-Up_Programme.html',
+        used: 'Credit amounts, subsidy rates and training allowance parameters' },
+      { title: 'Enhancing support for mid-career individuals under the SFLP', publisher: 'Ministry of Education',
+        url: 'https://www.moe.gov.sg/news/press-releases/20250306-infosheet-2-enhancing-support-for-mid-career-individuals-under-the-skillsfuture-level-up-programme',
+        used: 'Training allowance rates, caps and the part-time extension' },
+    ],
+    retrieval: {
+      catalogue: 'https://api-production.data.gov.sg/v2/public/api/datasets?page=N',
+      records: 'https://data.gov.sg/api/action/datastore_search?resource_id={id}',
+      note: '220 catalogue pages were scanned, identifying 114 Ministry of Manpower datasets, of which 24 were loaded. Both endpoints require a browser User-Agent and rate-limit at approximately one request per second.',
+    },
+    limitations: [
+      'SkillsFuture states 38 sector frameworks. Only 37 names are recoverable from public listings, so the registry carries 37.',
+      'The primary framework pages on jobsandskills.skillsfuture.gov.sg and jobsandskills.swda.gov.sg refuse automated requests, so structural facts were taken from search summaries and the secondary pages listed above.',
+      'Values suppressed at source in the Ministry of Manpower data are dropped rather than imputed, so series lengths vary by breakdown.',
+    ],
     counts,
   });
 });

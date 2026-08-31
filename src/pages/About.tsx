@@ -74,6 +74,48 @@ export function About() {
       </Panel>
 
       <Panel>
+        <Heading note="Sources consulted for the structure of the registry. No text was copied from them.">
+          Framework reference sources
+        </Heading>
+        <Table
+          columns={[{ key: 'title', label: 'Source' }, { key: 'pub', label: 'Publisher' }, { key: 'used', label: 'Used for' }]}
+          rows={(meta.references ?? []).map((r: any) => ({
+            title: <a href={r.url} target="_blank" rel="noreferrer" className="font-medium underline">{r.title}</a>,
+            pub: <span className="t-xs muted">{r.publisher}</span>,
+            used: <span className="t-xs ink-2">{r.used}</span>,
+          }))}
+          empty="No reference sources recorded."
+        />
+      </Panel>
+
+      <Panel>
+        <Heading note="How the labour market data was retrieved">Retrieval method</Heading>
+        <dl className="t-sm space-y-2">
+          <div>
+            <dt className="t-xs muted">Catalogue endpoint</dt>
+            <dd className="tabular break-all">{meta.retrieval?.catalogue}</dd>
+          </div>
+          <div>
+            <dt className="t-xs muted">Records endpoint</dt>
+            <dd className="tabular break-all">{meta.retrieval?.records}</dd>
+          </div>
+        </dl>
+        <p className="t-xs muted mt-3">{meta.retrieval?.note}</p>
+      </Panel>
+
+      <Panel>
+        <Heading note="Known limits of the data and how they were handled">Limitations</Heading>
+        <ul className="t-sm ink-2 space-y-2">
+          {(meta.limitations ?? []).map((l: string) => (
+            <li key={l} className="flex gap-2">
+              <span className="shrink-0" style={{ color: 'var(--accent)' }}>&bull;</span>
+              <span>{l}</span>
+            </li>
+          ))}
+        </ul>
+      </Panel>
+
+      <Panel>
         <Heading note="Every series loaded, with a link to the source dataset">Labour market datasets</Heading>
         <Table
           columns={[{ key: 't', label: 'Series' }, { key: 'u', label: 'Unit' },
