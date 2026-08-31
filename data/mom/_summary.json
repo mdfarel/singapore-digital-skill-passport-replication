@@ -1,0 +1,225 @@
+{
+ "lfpr_by_sex": {
+  "rows": 64,
+  "fields": [
+   "_id",
+   "lfpr",
+   "sex",
+   "year"
+  ],
+  "rid": "d_a365e10bbe7f63f6f352ee835d9c5959"
+ },
+ "lfpr_by_age_sex": {
+  "rows": 768,
+  "fields": [
+   "year",
+   "sex",
+   "age",
+   "lfpr"
+  ],
+  "rid": "d_4ed91a4ac48c9cf0c2bbcf93a7067d74"
+ },
+ "employment_rate_25_64": {
+  "rows": 32,
+  "fields": [
+   "year",
+   "emp_rate"
+  ],
+  "rid": "d_f50492fe89a0c3a522bf9c04ce3e6380"
+ },
+ "employment_rate_25_64_by_sex": {
+  "rows": 64,
+  "fields": [
+   "year",
+   "sex",
+   "emp_rate"
+  ],
+  "rid": "d_2da642bbf60e56f1b63fbb1de1772c06"
+ },
+ "long_term_unemployment_rate": {
+  "rows": 33,
+  "fields": [
+   "year",
+   "residential_status",
+   "ltu_rate"
+  ],
+  "rid": "d_edc7e225d4e7c8f3532e6c329ba2bf79"
+ },
+ "long_term_unemployed_count": {
+  "rows": 33,
+  "fields": [
+   "year",
+   "residential_status",
+   "long_term_unemployed"
+  ],
+  "rid": "d_8872e15c61a2ee8dde0e5f7e6f48d718"
+ },
+ "job_vacancy_rate_annual": {
+  "rows": 28,
+  "fields": [
+   "year",
+   "job_vacancy_rate"
+  ],
+  "rid": "d_fb4853f65d48be0a6ee7fb762b1b5251"
+ },
+ "job_vacancy_rate_by_industry_annual": {
+  "rows": 1154,
+  "fields": [
+   "year",
+   "industry",
+   "job_vacancy_rate"
+  ],
+  "rid": "d_c53ea3b4afe234c08853b7fca12e804e"
+ },
+ "job_vacancy_rate_by_occupation_annual": {
+  "rows": 110,
+  "fields": [
+   "year",
+   "occupation",
+   "job_vacancy_rate"
+  ],
+  "rid": "d_219448c6a9d45fa2537918335e614003"
+ },
+ "job_vacancy_by_industry_annual": {
+  "rows": 1154,
+  "fields": [
+   "year",
+   "industry",
+   "job_vacancy"
+  ],
+  "rid": "d_01966fdb498fa7fa2863635e25539693"
+ },
+ "job_vacancy_by_occupation_annual": {
+  "rows": 110,
+  "fields": [
+   "year",
+   "occupation",
+   "job_vacancy"
+  ],
+  "rid": "d_77a848ab5508fa38c5bbf72a956b3cf5"
+ },
+ "job_vacancy_annual": {
+  "rows": 28,
+  "fields": [
+   "year",
+   "job_vacancy"
+  ],
+  "rid": "d_89c02a8fe06893fa97b47a6bdf3626be"
+ },
+ "retrench_by_industry_annual": {
+  "rows": 1154,
+  "fields": [
+   "year",
+   "industry",
+   "retrench"
+  ],
+  "rid": "d_661bf51b24d91dff23c053fc461c0923"
+ },
+ "retrench_by_occupation_annual": {
+  "rows": 84,
+  "fields": [
+   "year",
+   "occupation",
+   "retrench"
+  ],
+  "rid": "d_49ab680655c6d48a221004630a37edd6"
+ },
+ "retrench_incidence_by_industry": {
+  "rows": 1154,
+  "fields": [
+   "year",
+   "industry",
+   "incidence_of_retrenchment"
+  ],
+  "rid": "d_8ee93a4e261908fafe878ea0bec29817"
+ },
+ "retrench_incidence_by_occupation": {
+  "rows": 84,
+  "fields": [
+   "year",
+   "occupation",
+   "incidence_of_retrenchment"
+  ],
+  "rid": "d_fdd935df6e82f5e327c3783032e84a24"
+ },
+ "reentry_post_retrenchment_by_age": {
+  "rows": 182,
+  "fields": [
+   "year",
+   "age1",
+   "reentry_rate_6mth"
+  ],
+  "rid": "d_3f4006f4e0797e4cd255dfdde3125825"
+ },
+ "lf_by_highest_qualification": {
+  "rows": 384,
+  "fields": [
+   "year",
+   "sex",
+   "highest_qualification",
+   "labour_force"
+  ],
+  "rid": "d_cdb0d9a947bd381c7a767ed2fce1f99f"
+ },
+ "recruitment_rate_annual": {
+  "rows": 28,
+  "fields": [
+   "year",
+   "recruitment_rate"
+  ],
+  "rid": "d_62a65198292501453c50e06b764741bd"
+ },
+ "resignation_rate_annual": {
+  "rows": 28,
+  "fields": [
+   "year",
+   "resignation_rate"
+  ],
+  "rid": "d_ad3831aac52b302dd474fa92c7acc808"
+ },
+ "wage_change_by_industry": {
+  "rows": 312,
+  "fields": [
+   "year",
+   "ind1",
+   "ind2",
+   "bwc"
+  ],
+  "rid": "d_bd83b4534db1032ca7415f82bbaae003"
+ },
+ "labour_force_status_age_sex": {
+  "rows": 768,
+  "fields": [
+   "year",
+   "sex",
+   "age",
+   "labour_force",
+   "employed",
+   "unemployed",
+   "outside_labour_force"
+  ],
+  "rid": "d_a214d535743d69b51e95d2a4e6f3630e"
+ },
+ "unemployed_by_qualification": {
+  "rows": 1728,
+  "fields": [
+   "year",
+   "sex",
+   "highest_qualification",
+   "duration_of_unemployment",
+   "unemployed"
+  ],
+  "rid": "d_e86bfae75632429f22fb315adba3e1a3"
+ },
+ "unemployed_by_age_duration_sex": {
+  "rows": 1440,
+  "fields": [
+   "year",
+   "sex",
+   "age",
+   "duration_of_unemployment",
+   "unemployed"
+  ],
+  "rid": "d_7d2bcebab8531bc21d22f0fe360ff33a"
+ }
+}

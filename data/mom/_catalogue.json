@@ -1,0 +1,867 @@
+[
+ {
+  "id": "d_f0b6868ab1c4b2fb1ac9aa7f0e722e4f",
+  "name": "Total Employees' Trade Union Membership",
+  "fmt": "CSV",
+  "cs": "2014-01-01",
+  "ce": "2024-01-01"
+ },
+ {
+  "id": "d_785903005a276ca9efdeab97707cdbbf",
+  "name": "Average Monthly Recruitment Rate by Industry and Occupation - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_8872e15c61a2ee8dde0e5f7e6f48d718",
+  "name": "Number of Long-term Unemployed Residents, Annual",
+  "fmt": "CSV",
+  "cs": "1992-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_edc7e225d4e7c8f3532e6c329ba2bf79",
+  "name": "Resident Long-Term Unemployment Rate, Annual",
+  "fmt": "CSV",
+  "cs": "1992-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_ad3831aac52b302dd474fa92c7acc808",
+  "name": "Average Monthly Resignation Rate - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_000d49cda016c13522d7d5be6a050f59",
+  "name": "Number of Retrenched Employees - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_cc9216784a9de451166a236e9f575c45",
+  "name": "Number and Incidence of Retrenchment by Residential Status - Annual",
+  "fmt": "CSV",
+  "cs": "2007-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_bd83b4534db1032ca7415f82bbaae003",
+  "name": "Basic Wage (Nominal) Changes by Industry",
+  "fmt": "CSV",
+  "cs": "2001-01-01",
+  "ce": "2024-01-01"
+ },
+ {
+  "id": "d_a365e10bbe7f63f6f352ee835d9c5959",
+  "name": "Resident Labour Force Participation Rate by Sex",
+  "fmt": "CSV",
+  "cs": "1991-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_aebf156556c15c9c312ff23d24bf7278",
+  "name": "Average Weekly Total Paid Hours Worked Per Employee - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_5c9068e2c0331bb2aadea9eeac579ae8",
+  "name": "Incidence of Retrenchment - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_661bf51b24d91dff23c053fc461c0923",
+  "name": "Number of Retrenched Employees by Industry - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_2da642bbf60e56f1b63fbb1de1772c06",
+  "name": "Employment Rate of Residents Aged 25 to 64 By Sex",
+  "fmt": "CSV",
+  "cs": "1991-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_8ee93a4e261908fafe878ea0bec29817",
+  "name": "Incidence of Retrenchment by Industry - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_fdd935df6e82f5e327c3783032e84a24",
+  "name": "Incidence of Retrenchment by Occupation - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_f50492fe89a0c3a522bf9c04ce3e6380",
+  "name": "Employment Rate of Residents Aged 25 to 64 (Total)",
+  "fmt": "CSV",
+  "cs": "1991-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_a6246f522f3ea0cf265e3ef3ad59fe8e",
+  "name": "Number of Retrenched Employees by Occupation - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_46331bbf4f098ae9ae2b46e605589537",
+  "name": "Number of Active Crane Operators' Licenses by Competency Types",
+  "fmt": "CSV",
+  "cs": "2025-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_4a089fa8530d79b33766f85e48a68af5",
+  "name": "Incidence of Retrenchment by Industry and Occupation - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_fef840cf56350e64d99b4838ea6000e7",
+  "name": "Number of Retrenched Permanent Employees - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_cdb0d9a947bd381c7a767ed2fce1f99f",
+  "name": "Resident Labour Force Aged 15 Years and Over by Highest Qualification Attained and Sex",
+  "fmt": "CSV",
+  "cs": "1991-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_46b49c3bf00d87eaa24441f339387467",
+  "name": "Employees on Short Work-Week or Temporary Layoff - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_31d4c1a2de1f880c005dad945ff44d5d",
+  "name": "Employees on Short Work-Week or Temporary Layoff - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_2398b9988baf18a9e2108b246004f5ff",
+  "name": "Employees on Short Work-Week or Temporary Layoff by Broad Industry - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_8aea9a1bd2ae2c2160c6af4b63aca2c6",
+  "name": "Average Weekly Total Paid Hours Worked / Standard Hours Per Employee By Industry - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_dcb22214ebbbd1f3dc82c78520541006",
+  "name": "Employees on Short Work-Week or Temporary Layoff by Broad Industry - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_9caf05b082bee1705dda69dbc7266203",
+  "name": "Employees on Short Work-Week or Temporary Layoff by Occupation - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_80247eca3da78635ed9e89aa5831e883",
+  "name": "Average Monthly Recruitment Rate - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_a214d535743d69b51e95d2a4e6f3630e",
+  "name": "Residents Aged 15 Years and Over by Labour Force Status, Age And Sex",
+  "fmt": "CSV",
+  "cs": "1991-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_59a34aef12e0ecf666de5746e50586e8",
+  "name": "Number of Job Vacancy - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_89c02a8fe06893fa97b47a6bdf3626be",
+  "name": "Number of Job Vacancy - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_16c09eef57385fc29402ee71ffefd375",
+  "name": "Average Weekly Total Paid Hours Worked / Standard Hours Per Employee - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_3f17bbf67d31d4d402caa8755eb74afc",
+  "name": "Number of Job Vacancy by Industry - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_64066e730480cc9063a37d4314128ec1",
+  "name": "Resident Labour Force Aged 15 Years and Over by Marital Status, Age and Sex",
+  "fmt": "CSV",
+  "cs": "1991-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_01966fdb498fa7fa2863635e25539693",
+  "name": "Number of Job Vacancy by Industry - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_86dffa3d28e4c3ee085c3f99abad6e9f",
+  "name": "Number of Job Vacancy by Occupation - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_5c6340cbe3eba3e4f3d2f20dd3245f51",
+  "name": "Average Weekly Paid Overtime Hours Worked Per Employee By Industry - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_77a848ab5508fa38c5bbf72a956b3cf5",
+  "name": "Number of Job Vacancy by Occupation - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_d3f02543c4d0dd197c56637eefc32624",
+  "name": "Number of Job Vacancy by Industry and Occupation - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_889d11a2b0a53b235abb64e3f4e0a47b",
+  "name": "Number of Job Vacancy by Industry and Occupation - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_25e50c4bba8cbe6754e537004050e219",
+  "name": "Average Weekly Total Paid Hours Worked / Standard Hours Per Employee By Nature Of Employment - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_bba55e58f9480f71de247f770bc48c60",
+  "name": "Proportion Of Establishments By Type Of Non-Statutory Leave Offered - Industry (Level 3)",
+  "fmt": "CSV",
+  "cs": "2008-06-01",
+  "ce": "2024-06-30"
+ },
+ {
+  "id": "d_c57f5cd0558e429e2ac055d83030e75f",
+  "name": "Job Vacancy Rate - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_6fa43c0feeb832bf9ffd7257712da9e8",
+  "name": "Rate of Re-entry Into Employment (Within 6 Months Post-Retrenchment) By Sex, Quarterly",
+  "fmt": "CSV",
+  "cs": "2000-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_ce1286635541b65ec31c7c9d43044737",
+  "name": "Average Weekly Total Paid Hours Worked / Standard Hours Per Employee By Industry And Nature Of Employment - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_fb4853f65d48be0a6ee7fb762b1b5251",
+  "name": "Job Vacancy Rate - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01"
+ },
+ {
+  "id": "d_fe705c7af162331d36cc31193f8f50c9",
+  "name": "Job Vacancy Rate by Industry - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31"
+ },
+ {
+  "id": "d_4ed91a4ac48c9cf0c2bbcf93a7067d74",
+  "name": "Resident Labour Force Participation Rate by Age and Sex",
+  "fmt": "CSV",
+  "cs": "1991-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_c53ea3b4afe234c08853b7fca12e804e",
+  "name": "Job Vacancy Rate by Industry - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_0ba69fc6d56717ff0bf8083c6af3bb84",
+  "name": "Public Holidays for 2027",
+  "fmt": "CSV",
+  "cs": "2027-01-01",
+  "ce": "2027-12-25",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_1e10046c33418c507bb2483c26dca489",
+  "name": "Job Vacancy Rate by Occupation - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_f77122d6dae6b2a363d88fca166e53f4",
+  "name": "Average Weekly Overtime Hours Worked Per Employee (of All Employees / of Employees who Worked Overtime)  - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_3f4006f4e0797e4cd255dfdde3125825",
+  "name": "Rate of Re-entry Into Employment (Within 6 Months Post-Retrenchment) By Age, Annual",
+  "fmt": "CSV",
+  "cs": "2000-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_219448c6a9d45fa2537918335e614003",
+  "name": "Job Vacancy Rate by Occupation - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_493616c9e3c9bd5d1e273903aa693a16",
+  "name": "Number of Retrenched Permanent Employees - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_74803e94c5299493f76d71c8994c50c1",
+  "name": "Job Vacancy Rate by Industry and Occupation - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_c791286727ba26c82dec0d485898f938",
+  "name": "Average Weekly Overtime Hours Worked Per Employee (of All Employees / of Employees who Worked Overtime) By Industry - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_ddcb2546c798f94ba6b4a6508ab42632",
+  "name": "Job Vacancy Rate by Industry and Occupation - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_149b61ad0a22f61c09dc80f2df5bbec8",
+  "name": "Public Holidays for 2026",
+  "fmt": "CSV",
+  "cs": "2026-01-01",
+  "ce": "2026-12-25",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_62a65198292501453c50e06b764741bd",
+  "name": "Average Monthly Recruitment Rate - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_aafecdd28ed28d095f5d46887554e0d3",
+  "name": "Average Weekly Overtime Hours Worked Per Employee (of All Employees / of Employees who Worked Overtime) By Nature Of Employment - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_f5d9209c996b9d9fc6c2a781aa23fcbf",
+  "name": "Number of Salary Claims by Claim Items, Annual",
+  "fmt": "CSV",
+  "cs": "2014-01-01",
+  "ce": "2024-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_4d3ce3e889fdf1da6bd6e9d52667db91",
+  "name": "Rate of Re-entry Into Employment (Within 6 Months Post-Retrenchment), Quarterly",
+  "fmt": "CSV",
+  "cs": "2000-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_9d1df046f28dd9899ba0ca13899c03db",
+  "name": "Number of Retrenched Term Contract Employees by Occupation - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_ab4bdf37338902a257748b1d90b487f9",
+  "name": "Average Weekly Overtime Hours Worked Per Employee (of All Employees / of Employees who Worked Overtime) By Industry And Nature Of Employment - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_12fc09011acb07b04aa484cbd5ea5ceb",
+  "name": "Residents Aged 15 Years and Over by Labour Force Status And Age",
+  "fmt": "CSV",
+  "cs": "1991-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_7d2bcebab8531bc21d22f0fe360ff33a",
+  "name": "Unemployed Residents Aged 15 Years & Over By Age, Duration of Unemployment And Sex",
+  "fmt": "CSV",
+  "cs": "2010-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_357028a04b32f526d0ce43b162fa8e23",
+  "name": "Average Weekly Total Paid Hours Worked Per Employee By Industry - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_49ab680655c6d48a221004630a37edd6",
+  "name": "Number of Retrenched Employees by Occupation - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_e86bfae75632429f22fb315adba3e1a3",
+  "name": "Unemployed Residents Aged 15 Years & Over By Highest Qualification Attained, Duration of Unemployment And Sex",
+  "fmt": "CSV",
+  "cs": "2010-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_80effd26c9ca5755a7ff0598fe2e0be6",
+  "name": "Overall Unemployment Rate, Annual",
+  "fmt": "CSV",
+  "cs": "1992-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_440e107da7b47ef0bda2d0b94bfd512b",
+  "name": "Collective Agreements Certified by Type of Workers Covered",
+  "fmt": "CSV",
+  "cs": "2005-01-01",
+  "ce": "2018-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_751712fd64b5d061cf3456728734e419",
+  "name": "Unemployed Residents Aged 15 Years & Over Who Worked Before By Age, Previous Occupation And Sex",
+  "fmt": "CSV",
+  "cs": "2010-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_5c869e069359247fc9d518eeeb3a32b0",
+  "name": "Unemployed Residents Aged 15 Years & Over Who Worked Before By Age, Previous Industry And Sex",
+  "fmt": "CSV",
+  "cs": "2010-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_3751791452397f1b1c80c451447e40b7",
+  "name": "Public Holidays for 2025",
+  "fmt": "CSV",
+  "cs": "2025-01-01",
+  "ce": "2025-12-25",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_6e31884107e528965607fed92094384c",
+  "name": "Employees on Short Work-Week or Temporary Layoff by Occupation -Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_31f849c405eed919e41c29b234a5e7ad",
+  "name": "Total Industrial Arbitration Court Awards",
+  "fmt": "CSV",
+  "cs": "2005-01-01",
+  "ce": "2018-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_ed5664ea4e9d03c7d82810f45c555258",
+  "name": "Proportion Of Establishments Offering Non-Scheduled Flexible Work Arrangements - Topline",
+  "fmt": "CSV",
+  "cs": "2010-06-01",
+  "ce": "2025-06-30",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_5b3e5df23ff572d2a545229cebc7b151",
+  "name": "Rate of Re-entry Into Employment (Within 6 Months Post-Retrenchment) By Occupation, Quarterly",
+  "fmt": "CSV",
+  "cs": "2000-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_2c4005a1c24ab6bde1d2b762b8f64bec",
+  "name": "Distribution Of Full-Time Employees By Work-Week Pattern - Topline",
+  "fmt": "CSV",
+  "cs": "2008-06-01",
+  "ce": "2024-06-30",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_200d7acaa64088c60476de87274674cf",
+  "name": "Rate of Re-entry Into Employment (Within 12 Months Post-Retrenchment) By Occupation, Quarterly",
+  "fmt": "CSV",
+  "cs": "2000-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_60117eac5efb93aec9943c5c3ef2f51c",
+  "name": "Distribution Of Full-Time Employees By Work-Week Pattern - Industry (Level 1)",
+  "fmt": "CSV",
+  "cs": "2008-06-01",
+  "ce": "2024-06-30",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_cdde7c4701d917ae58aa63e4015490aa",
+  "name": "Number of Retrenched Employees by Industry and Occupation - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_4ed36511f052d872df7107d07d793da7",
+  "name": "Distribution Of Full-Time Employees By Work-Week Pattern - Industry (Level 2)",
+  "fmt": "CSV",
+  "cs": "2008-06-01",
+  "ce": "2024-06-30",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_06382194ad794a81e6d2591ce65a042a",
+  "name": "Rate of Re-entry Into Employment (Within 12 Months Post-Retrenchment) By Sex, Quarterly",
+  "fmt": "CSV",
+  "cs": "2000-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_61d92d31ca400be135190614277da825",
+  "name": "Number of Retrenched Employees by Industry - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_aff8ffc6a2caeefec867169035d8d10a",
+  "name": "Industrial Arbitration Court Awards by Nature of Trade Disputes",
+  "fmt": "CSV",
+  "cs": "2005-01-01",
+  "ce": "2018-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_ca90ebca85472a1bf8fb01362b7233fa",
+  "name": "Stock of Foreign Workforce by Pass Type",
+  "fmt": "CSV",
+  "cs": "2017-12-01",
+  "ce": "2022-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_8787647de610dbaafb1e9cfb830a9363",
+  "name": "Distribution Of Full-Time Employees By Work-Week Pattern - Industry (Level 3)",
+  "fmt": "CSV",
+  "cs": "2008-06-01",
+  "ce": "2024-06-30",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_149f6c39f9b6e343b88cba90863c66ba",
+  "name": "Distribution Of Full-Time Employees By Work-Week Pattern - Type of Employee",
+  "fmt": "CSV",
+  "cs": "2008-06-01",
+  "ce": "2024-06-30",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_202d50d0675eaf11b348f7365b9a0ecc",
+  "name": "Unemployed Residents Aged 15 Years & Over By Age, Marital Status And Sex",
+  "fmt": "CSV",
+  "cs": "2010-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_e20b7b436270ddb7435e269ec8855529",
+  "name": "Unemployed Residents Aged 15 Years & Over By Age, Highest Qualification Attained And Sex",
+  "fmt": "CSV",
+  "cs": "2010-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_e91adc199c3c15b7388054ee9e2a52fb",
+  "name": "Rate of Re-entry Into Employment (Within 12 Months Post-Retrenchment) By Age, Annual",
+  "fmt": "CSV",
+  "cs": "2000-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_4fb775d3cc311989261fae4ad22dde09",
+  "name": "Number of Foreign Domestic Workers and Construction, Marine, Process Work Permit Holders",
+  "fmt": "CSV",
+  "cs": "2017-12-01",
+  "ce": "2022-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_6d1fcbd205b908c27c174db08432346a",
+  "name": "Number of Retrenched Employees by Industry and Occupation - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_9eb28868881672123e0c66acee258b66",
+  "name": "Rate of Re-entry Into Employment (Within 12 Months Post-Retrenchment) By Occupation, Annual",
+  "fmt": "CSV",
+  "cs": "2000-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_3549a6a5fb5cfff7eae662b946857760",
+  "name": "Two-year Moving Average of Distribution of Residents\u200b with Disabilities Aged Outside the Labour Force Aged 15 to 64 by Main Reason for Not Working",
+  "fmt": "CSV",
+  "cs": "2019-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_cc2e7b807ddcdbc14b84188c5f749816",
+  "name": "Two-year Moving Average of Distribution of Employed Residents with Disabilities Aged 15 to 64 by Industry",
+  "fmt": "CSV",
+  "cs": "2019-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_448562bd88b230f8bd7a7536ea990d81",
+  "name": "Two-year Moving Average of Unemployment Rate of Residents with Disabilities Aged 15 to 64",
+  "fmt": "CSV",
+  "cs": "2019-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_81ccb0a9060aea375755312fe3b6fee6",
+  "name": "Two-year Moving Average of Distribution of Residents with Disabilities Aged 15 to 64 by Labour Force Status \u200b",
+  "fmt": "CSV",
+  "cs": "2019-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_c60fe8fad219569c04428f35b07359f3",
+  "name": "Average Monthly Recruitment Rate by Industry - Quarterly",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_79699e0bd51d2d8cee7fb3f6d29dc7c4",
+  "name": "Resident Unemployment Rate By Age, Highest Qualification Attained And Sex",
+  "fmt": "CSV",
+  "cs": "2010-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_ebf92c8cddd3ebe0bf40eb5735812981",
+  "name": "Two-year Moving Average of Resident Employment Rate of Person with Disabilities by Age",
+  "fmt": "CSV",
+  "cs": "2019-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_d6ca76fe9e8d58d436a5a34db0321e28",
+  "name": "Industrial Stoppages",
+  "fmt": "CSV",
+  "cs": "2005-01-01",
+  "ce": "2024-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_eba374d4b40624a73b223f59c1d1d1a2",
+  "name": "Total Membership of Employers' Trade Unions",
+  "fmt": "CSV",
+  "cs": "2014-01-01",
+  "ce": "2024-01-01",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_890a14eaf2644db6956f41b2b1bfc494",
+  "name": "CET Centres",
+  "fmt": "GEOJSON",
+  "cs": "",
+  "ce": "",
+  "agency": "SkillsFuture Singapore"
+ },
+ {
+  "id": "d_4e19214c3a5288eab7a27235f43da4fa",
+  "name": "Public Holidays for 2024",
+  "fmt": "CSV",
+  "cs": "2024-01-01",
+  "ce": "2024-12-25",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_0b0fe4a7101674be0a359e55d32cd126",
+  "name": "Public Holidays for 2023",
+  "fmt": "CSV",
+  "cs": "2023-01-01",
+  "ce": "2023-12-25",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_d4d621596397d8f2627cc06c3b6d020a",
+  "name": "Public Holidays for 2022",
+  "fmt": "CSV",
+  "cs": "2022-01-01",
+  "ce": "2022-12-26",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_1840fb46caa92cb59e4f168e70a36bf1",
+  "name": "Public Holidays for 2020",
+  "fmt": "CSV",
+  "cs": "2020-01-01",
+  "ce": "2020-12-25",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_0ccc3980b234e9d3033142e652337302",
+  "name": "Rate of Re-entry Into Employment (Within 12 Months Post-Retrenchment) By Education, Quarterly",
+  "fmt": "CSV",
+  "cs": "2000-01-01",
+  "ce": "2025-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_8ef23381f9417e4d4254ee8b4dcdb176",
+  "name": "Singapore Public Holidays (consolidated)",
+  "fmt": "CSV",
+  "cs": "2020-01-01",
+  "ce": "2027-12-25",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_735578adc09f2d33e8ede963b8d8feb9",
+  "name": "Average Days Of Sick Leave Taken - Industry (Level 2)",
+  "fmt": "CSV",
+  "cs": "2007-01-01",
+  "ce": "2023-12-31",
+  "agency": "Ministry of Manpower"
+ },
+ {
+  "id": "d_df2976561f50447ff200a3230b2b0396",
+  "name": "Average Monthly Recruitment Rate by Industry - Annual",
+  "fmt": "CSV",
+  "cs": "1998-01-01",
+  "ce": "2025-01-01",
+  "agency": "Ministry of Manpower"
+ }
+]

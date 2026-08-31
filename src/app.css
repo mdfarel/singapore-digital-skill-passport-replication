@@ -1,0 +1,183 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Type scale. Five steps only. Hierarchy is carried by weight and colour, not
+   by additional sizes.
+   --------------------------------------------------------------------------- */
+:root {
+  --t-xs: 0.75rem;    /* 12px  labels, meta, table headers, captions */
+  --t-sm: 0.875rem;   /* 14px  body, table cells, controls */
+  --t-md: 1.0625rem;  /* 17px  section and card headings */
+  --t-lg: 1.375rem;   /* 22px  page titles */
+  --t-xl: 2rem;       /* 32px  reported figures */
+}
+
+.t-xs { font-size: var(--t-xs); line-height: 1.45; }
+.t-sm { font-size: var(--t-sm); line-height: 1.5; }
+.t-md { font-size: var(--t-md); line-height: 1.35; letter-spacing: -0.011em; }
+.t-lg { font-size: var(--t-lg); line-height: 1.24; letter-spacing: -0.018em; }
+.t-xl { font-size: var(--t-xl); line-height: 1.05; letter-spacing: -0.024em; }
+
+/* ---------------------------------------------------------------------------
+   Colour. Light is the base set; dark is selected for the dark surface rather
+   than inverted. Chart series follow a validated categorical order led by the
+   accent hue; status colours are reserved and never used for a series.
+   --------------------------------------------------------------------------- */
+:root {
+  color-scheme: light;
+  --plane: #faf8f7;
+  --surface: #ffffff;
+  --surface-2: #f3efee;
+  --ink: #171211;
+  --ink-2: #584f4d;
+  --muted: #8a807e;
+  --line: #e6dedc;
+  --line-2: #c9bfbc;
+
+  --accent: #9b1f1d;
+  --accent-2: #b33832;
+  --accent-wash: #f7e6e4;
+  --accent-ink: #ffffff;
+
+  --s1: #e34948; --s2: #2a78d6; --s3: #1baf7a; --s4: #eda100;
+  --s5: #e87ba4; --s6: #008300; --s7: #4a3aa7; --s8: #eb6834;
+
+  --r1: #ea988f; --r2: #ec6c61; --r3: #e23e39;
+  --r4: #ca121b; --r5: #a60210; --r6: #7c1213;
+
+  --good: #0ca30c;
+  --attention: #fab219;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --plane: #100c0b;
+    --surface: #17100f;
+    --surface-2: #201817;
+    --ink: #ffffff;
+    --ink-2: #c8bcb9;
+    --muted: #8f8481;
+    --line: #2a2220;
+    --line-2: #3a302e;
+
+    --accent: #f08078;
+    --accent-2: #ea6b60;
+    --accent-wash: #2b1614;
+    --accent-ink: #17100f;
+
+    --s1: #e66767; --s2: #3987e5; --s3: #199e70; --s4: #c98500;
+    --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #d95926;
+
+    --r1: #fed2cc; --r2: #ffa49a; --r3: #f7776c;
+    --r4: #e24d45; --r5: #c22b29; --r6: #981a1a;
+
+    --good: #0ca30c;
+    --attention: #fab219;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --plane: #100c0b;
+  --surface: #17100f;
+  --surface-2: #201817;
+  --ink: #ffffff;
+  --ink-2: #c8bcb9;
+  --muted: #8f8481;
+  --line: #2a2220;
+  --line-2: #3a302e;
+
+  --accent: #f08078;
+  --accent-2: #ea6b60;
+  --accent-wash: #2b1614;
+  --accent-ink: #17100f;
+
+  --s1: #e66767; --s2: #3987e5; --s3: #199e70; --s4: #c98500;
+  --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #d95926;
+
+  --r1: #fed2cc; --r2: #ffa49a; --r3: #f7776c;
+  --r4: #e24d45; --r5: #c22b29; --r6: #981a1a;
+
+  --good: #0ca30c;
+  --attention: #fab219;
+}
+
+html, body, #root { height: 100%; }
+
+body {
+  background: var(--plane);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: var(--t-sm);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Grid and flex children default to min-width:auto, which prevents long content
+   from shrinking. Everything here truncates or scrolls instead. */
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  min-width: 0;
+}
+
+.ink-2 { color: var(--ink-2); }
+.muted { color: var(--muted); }
+.tabular { font-variant-numeric: tabular-nums; }
+.rule { border-color: var(--line); }
+
+a { color: inherit; }
+::selection { background: var(--accent-wash); }
+
+:where(a, button, input, select, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+.field {
+  height: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--line-2);
+  border-radius: 4px;
+  padding: 0 0.5rem;
+  font-size: var(--t-sm);
+  color: var(--ink);
+  min-width: 0;
+}
+.field:focus { outline: 2px solid var(--accent-2); outline-offset: -1px; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  height: 2rem;
+  padding: 0 0.75rem;
+  border-radius: 4px;
+  font-size: var(--t-sm);
+  font-weight: 500;
+  border: 1px solid var(--line-2);
+  background: var(--surface);
+  white-space: nowrap;
+}
+.btn-primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+.scroll-x { overflow-x: auto; }
+.scroll-x::-webkit-scrollbar { height: 6px; }
+.scroll-x::-webkit-scrollbar-thumb { background: var(--line-2); border-radius: 6px; }
+
+/* Data tables read as records, not as cards. */
+table.data { width: 100%; border-collapse: collapse; font-size: var(--t-sm); }
+table.data th {
+  font-size: var(--t-xs);
+  font-weight: 500;
+  color: var(--muted);
+  text-align: left;
+  padding: 0 0.5rem 0.375rem;
+  border-bottom: 1px solid var(--line-2);
+  white-space: nowrap;
+}
+table.data td { padding: 0.4375rem 0.5rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.data tbody tr:last-child td { border-bottom: none; }

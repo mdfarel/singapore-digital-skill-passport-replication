@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "skill-passport",
+  "main": "worker/index.ts",
+  "compatibility_date": "2025-01-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "skill-passport",
+      "database_id": "70aaadd3-bd12-4f15-9930-9fd89c23295f"
+    }
+  ],
+  "routes": [
+    { "pattern": "skill-passport.geoai.id", "custom_domain": true }
+  ],
+  "observability": { "enabled": true }
+}
