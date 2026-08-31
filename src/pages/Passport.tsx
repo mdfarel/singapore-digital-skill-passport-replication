@@ -201,7 +201,7 @@ function Overview({ data }: { data: any }) {
                     <Link to={`/courses/${t.course_code}`} className="t-sm hover:underline block truncate">{t.course_title}</Link>
                     <div className="t-xs muted">{t.provider}, {t.hours} hours</div>
                   </div>
-                  <Tag tone={t.status === 'completed' ? 'good' : t.status === 'in-progress' ? 'accent' : 'neutral'}>{t.status}</Tag>
+                  <Tag tone={t.status === 'completed' ? 'good' : 'neutral'}>{t.status}</Tag>
                 </div>
               ))}
             </div>
